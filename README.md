@@ -1,4 +1,5 @@
 Fork to support Raspberry Pi 4, hardware revision 1.1 which uses a BCM2711 instead of the BCM2835 used in revision 1.0.
+
 This previously resulted in a botched setup. This fork simply modified platform_detect.py, which is used during setup for BCM2711 support.
 
 
